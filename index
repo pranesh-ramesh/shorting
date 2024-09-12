@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Selection Sort - Name List Visualization</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Selection Sort: Sorting List of Names</h1>
+  <div class="controls">
+    <input type="text" id="nameInput" placeholder="Enter a name" />
+    <button onclick="addName()">Add Name</button>
+  </div>
+
+  <div class="container" id="nameContainer"></div>
+
+  <button id="sortButton" onclick="startSorting()">Start Sorting</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
